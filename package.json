@@ -28,6 +28,7 @@
     "@nestjs/platform-socket.io": "^10.4.1",
     "@nestjs/websockets": "^10.4.1",
     "dotenv": "^16.4.5",
+    "eventemitter3": "^5.0.1",
     "mongoose": "^8.5.3",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
