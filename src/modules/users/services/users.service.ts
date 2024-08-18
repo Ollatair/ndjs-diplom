@@ -12,7 +12,7 @@ export class UsersService implements IUserService {
     return user.save();
   }
 
-  async findById(id: ID): Promise<User> {
+  async findById(id: string): Promise<User> {
     const user = await this.userModel.findById(id).exec();
     if (!user) {
       throw new NotFoundException(`User with id ${id} not found`);

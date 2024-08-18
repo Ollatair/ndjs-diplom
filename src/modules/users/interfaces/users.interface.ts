@@ -1,6 +1,6 @@
-import { Document } from 'mongoose';
+import { Document, Types } from 'mongoose';
 
-export type ID = string | typeof import('mongoose').Types.ObjectId;
+export type ID = string | Types.ObjectId;
 
 export interface User extends Document {
   _id: ID;
